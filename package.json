@@ -3,18 +3,22 @@
   "version": "1.0.0",
   "description": "generate a html template quickly",
   "main": "index.js",
+  "bin": {
+    "ge": "./bin/ge.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "ge": "./bin/ge.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissSweety/htmlQuickTemplate.git"
   },
   "keywords": [
     "cli",
     "html",
     "template"
   ],
-  "author": "'missSweety'",
+  "author": "'misssweety'",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.1.0",
